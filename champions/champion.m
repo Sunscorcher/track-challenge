@@ -20,22 +20,6 @@ classdef champion < handle
     end
     % property methods
     methods
-        % Set protean to true
-        function this = proteanWin(this)
-            this.protean = true;
-        end
-        % Set perfectionist to true
-        function this = perfectionistWin(this)
-            this.perfectionist = true;
-        end
-        % set penta to true
-        function this = pentaWin(this)
-            this.penta = true;
-        end
-        % set allRandomAllChampions to true
-        function this = allRandWin(this)
-            this.allRandomAllChampions = true;
-        end
         % Reset the properties common to all subclasses
         function this = resetProperties(this)
             this.protean = false;
@@ -43,6 +27,11 @@ classdef champion < handle
             this.penta = false;
             this.invincible = false;
             this.allRandomAllChampions = false;
+            this.biggerCloset = false;
+            this.masterYourself = false;
+            this.masterTheEnemy = false;
+            this.wellRoundedTraveler = false;
+            this.rekindleOldFurnace = false;
         end
     end
 end
