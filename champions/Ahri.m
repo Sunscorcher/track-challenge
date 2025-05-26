@@ -1,9 +1,11 @@
 classdef Ahri < champion
     properties
-        role = "mage";
+        role = ["mage","assassin"];
         lane = "mid";
-        masterMage = false; % mastery 10 on fighter champions
-        mageSpecialist = false; % rekindle eternal set for fighters
+        masterMage = false; % mastery 10 on mages
+        masterAssassin = false; % mastery 10 on assassins
+        mageSpecialist = false; % rekindle eternal set for mages
+        assassinSpecialist = false; % rekindle eternal set for assassins
     end
     % methods
     % 
