@@ -1,11 +1,8 @@
-classdef Alistar < champion
+classdef Mage < Champion
     properties
-        role = "support";
-        lane = "support";
-        
         % master <> is for reaching mastery 10 on role-specific champions
-        masterSupport = false;
+        masterMage = false;
         % <> specialist is for rekindling role-specific eternal sets
-        supportSpecialist = false;
+        mageSpecialist = false;
     end
 end

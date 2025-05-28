@@ -1,4 +1,4 @@
-classdef champion < handle
+classdef Champion < handle
     properties
         protean = false;
         perfectionist = false;

@@ -1,13 +1,8 @@
-classdef Ahri < champion
+classdef Assassin < Champion
     properties
-        role = ["mage","assassin"];
-        lane = "mid";
-
         % master <> is for reaching mastery 10 on role-specific champions
-        masterMage = false;
         masterAssassin = false;
         % <> specialist is for rekindling role-specific eternal sets
-        mageSpecialist = false;
         assassinSpecialist = false;
     end
 end

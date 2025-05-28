@@ -1,11 +1,8 @@
-classdef Akali < champion
+classdef Marksman < Champion
     properties
-        role = "assassin";
-        lane = "mid";
-
         % master <> is for reaching mastery 10 on role-specific champions
-        masterAssassin = false;
+        masterMarksman = false;
         % <> specialist is for rekindling role-specific eternal sets
-        assassinSpecialist = false;
+        marksmanSpecialist = false;
     end
 end
