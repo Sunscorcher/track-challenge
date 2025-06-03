@@ -1,6 +1,6 @@
-classdef Ekko < Assassin
+classdef Ekko < Assassin & Mage
     properties
-        role = "assassin";
+        role = ["assassin", "mage"];
         lane = "mid";
     end
 end

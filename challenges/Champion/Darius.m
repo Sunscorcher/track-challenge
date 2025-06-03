@@ -1,6 +1,6 @@
-classdef Darius < Fighter
+classdef Darius < Fighter & Tank
     properties
-        role = "fighter";
+        role = ["fighter", "tank"];
         lane = "top";
     end
 end

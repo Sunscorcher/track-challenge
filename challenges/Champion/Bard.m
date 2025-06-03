@@ -1,6 +1,6 @@
-classdef Bard < Support
+classdef Bard < Support & Mage
     properties
-        role = "support";
+        role = ["support", "mage"];
         lane = "support";
     end
 end

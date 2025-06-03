@@ -1,6 +1,6 @@
-classdef Diana < Assassin
+classdef Diana < Assassin & Fighter
     properties
-        role = "assassin";
+        role = ["assassin", "fighter"];
         lane = "mid";
     end
 end

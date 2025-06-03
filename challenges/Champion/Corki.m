@@ -1,6 +1,6 @@
-classdef Corki < Marksman
+classdef Corki < Marksman & Mage
     properties
-        role = "marksman";
+        role = ["marksman", "mage"];
         lane = "bot";
     end
 end

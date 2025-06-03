@@ -1,6 +1,6 @@
-classdef Briar < Fighter
+classdef Briar < Fighter & Assassin
     properties
-        role = "fighter";
+        role = ["fighter", "assassin"];
         lane = "jungle";
     end
 end

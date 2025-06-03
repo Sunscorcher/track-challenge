@@ -1,6 +1,6 @@
 classdef Alistar < Tank & Support
     properties
-        role = "support";
+        role = ["tank", "support"];
         lane = "support";
     end
 end

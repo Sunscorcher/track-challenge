@@ -1,6 +1,6 @@
-classdef Amumu < Tank
+classdef Amumu < Tank & Support
     properties
-        role = "tank";
+        role = ["tank", "support"];
         lane = "jungle";
     end
 end

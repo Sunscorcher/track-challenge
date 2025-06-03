@@ -1,6 +1,6 @@
-classdef Aurora < Mage
+classdef Aurora < Mage & Assassin
     properties
-        role = "mage";
+        role = ["mage", "assassin"];
         lane = "mid";
     end
 end

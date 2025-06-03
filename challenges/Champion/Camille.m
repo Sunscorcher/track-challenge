@@ -1,6 +1,6 @@
-classdef Camille < Fighter
+classdef Camille < Fighter & Assassin
     properties
-        role = "fighter";
+        role = ["fighter", "assassin"];
         lane = "top";
     end
 end

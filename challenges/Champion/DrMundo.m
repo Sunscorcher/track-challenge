@@ -1,6 +1,6 @@
-classdef DrMundo < Tank
+classdef DrMundo < Tank & Fighter
     properties
-        role = "tank";
+        role = ["tank", "fighter"];
         lane = "top";
     end
 end

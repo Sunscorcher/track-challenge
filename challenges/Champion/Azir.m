@@ -1,6 +1,6 @@
-classdef Azir < Mage
+classdef Azir < Mage & Marksman
     properties
-        role = "mage";
+        role = ["mage", "marksman"];
         lane = "mid";
     end
 end

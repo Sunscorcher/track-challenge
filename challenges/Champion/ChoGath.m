@@ -1,6 +1,6 @@
-classdef ChoGath < Tank
+classdef ChoGath < Tank & Mage
     properties
-        role = "tank";
+        role = ["tank", "mage"];
         lane = "top";
     end
 end

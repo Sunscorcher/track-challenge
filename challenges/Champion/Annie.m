@@ -1,6 +1,6 @@
-classdef Annie < Mage
+classdef Annie < Mage & Support
     properties
-        role = "mage";
+        role = ["mage", "support"];
         lane = "mid";
     end
 end

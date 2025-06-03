@@ -1,6 +1,6 @@
-classdef Akshan < Marksman
+classdef Akshan < Marksman & Assassin
     properties
-        role = "marksman";
+        role = ["marksman", "assassin"];
         lane = "bot";
     end
 end

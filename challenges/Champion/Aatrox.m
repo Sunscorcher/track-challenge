@@ -1,7 +1,7 @@
-classdef Aatrox < Fighter
+classdef Aatrox < Fighter & Tank
     properties
+        role = ["fighter", "tank"];
         lane = "top";
-        role = "fighter";
         holdPose = false; % 2+ immobilizing abilities
     end
 end

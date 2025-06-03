@@ -1,6 +1,6 @@
-classdef Blitzcrank < Support
+classdef Blitzcrank < Support & Tank
     properties
-        role = "support";
+        role = ["support", "tank"];
         lane = "support";
     end
 end

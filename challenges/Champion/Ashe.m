@@ -1,6 +1,6 @@
-classdef Ashe < Marksman
+classdef Ashe < Marksman & Support
     properties
-        role = "marksman";
+        role = ["marksman", "support"];
         lane = "bot";
     end
 end

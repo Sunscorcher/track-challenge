@@ -1,6 +1,6 @@
-classdef Brand < Mage
+classdef Brand < Mage & Support
     properties
-        role = "mage";
+        role = ["mage", "support"];
         lane = "mid";
     end
 end
