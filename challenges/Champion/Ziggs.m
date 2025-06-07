@@ -2,5 +2,7 @@ classdef Ziggs < Mage
     properties
         role = "mage";
         lane = "mid";
+        nowhereToHide = false; % Nowhere To Hide
+        ultimateInName = false; % It Has Ultimate In The Name
     end
 end
