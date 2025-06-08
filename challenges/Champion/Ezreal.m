@@ -5,5 +5,7 @@ classdef Ezreal < Marksman & Mage
         nowhereToHide = false; % Nowhere To Hide
         ultimateInName = false; % It Has Ultimate In The Name
         wereGoodOverHere = false; % We're Good Over Here
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

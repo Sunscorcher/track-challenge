@@ -5,5 +5,7 @@ classdef Blitzcrank < Support & Tank
         ultimateInName = false; % It Has Ultimate In The Name
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
+        % Zaun:
+        chemtechComrades = false; % Chemtech Comrades
     end
 end

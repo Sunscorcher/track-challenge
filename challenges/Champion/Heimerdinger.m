@@ -6,5 +6,7 @@ classdef Heimerdinger < Mage & Support
         summonersOnTheRift = false; % Summoners on the Rift
         % Bandle City:
         fiveUnderFive = false; % 5 under 5'
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

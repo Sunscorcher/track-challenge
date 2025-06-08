@@ -9,5 +9,7 @@ classdef Ziggs < Mage
         itsATrap = false; % It's a Trap!
         % Bandle City:
         fiveUnderFive = false; % 5 under 5'
+        % Zaun:
+        chemtechComrades = false; % Chemtech Comrades
     end
 end

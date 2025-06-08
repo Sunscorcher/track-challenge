@@ -3,5 +3,7 @@ classdef Vi < Fighter & Assassin
         role = ["fighter", "assassin"];
         lane = "jungle";
         holdPose = false; % Hold That Pose
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

@@ -6,5 +6,7 @@ classdef Corki < Marksman & Mage
         wereGoodOverHere = false; % We're Good Over Here
         % Bandle City:
         fiveUnderFive = false; % 5 under 5'
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

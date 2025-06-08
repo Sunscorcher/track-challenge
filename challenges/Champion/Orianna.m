@@ -6,5 +6,7 @@ classdef Orianna < Mage & Support
         weProtec = false; % We Protec
         summonersOnTheRift = false; % Summoners on the Rift
         getOverHere = false; % Get Over Here
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

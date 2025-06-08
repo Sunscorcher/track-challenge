@@ -6,5 +6,7 @@ classdef Janna < Support & Mage
         weProtec = false; % We Protec
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
+        % Zaun:
+        chemtechComrades = false; % Chemtech Comrades
     end
 end

@@ -4,5 +4,7 @@ classdef Leona < Tank & Support
         lane = "support";
         ultimateInName = false; % It Has Ultimate In The Name
         holdPose = false; % Hold That Pose
+        % Targon:
+        peakPerformance = false; % Peak Performance
     end
 end

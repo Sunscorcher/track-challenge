@@ -6,5 +6,7 @@ classdef Neeko < Mage & Support
         wheredTheyGo = false; % Where'd They Go?
         summonersOnTheRift = false; % Summoners on the Rift
         holdPose = false; % Hold That Pose
+        % Ixtal:
+        dearWatson = false; % Elemental, My Dear Watson
     end
 end

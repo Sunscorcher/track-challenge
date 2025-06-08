@@ -9,5 +9,7 @@ classdef Kled < Fighter & Tank
         holdPose = false; % Hold That Pose
         % Bandle City:
         fiveUnderFive = false; % 5 under 5'
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end

@@ -4,5 +4,7 @@ classdef Yorick < Fighter & Tank
         lane = "top";
         summonersOnTheRift = false; % Summoners on the Rift
         imHelping = false; % I'm Helping
+        % Shadow Isles:
+        spookyScarySkeletons = false; % Spooky Scary Skeletons
     end
 end

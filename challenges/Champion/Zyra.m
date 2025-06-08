@@ -6,5 +6,7 @@ classdef Zyra < Mage & Support
         summonersOnTheRift = false; % Summoners on the Rift
         itsATrap = false; % It's a Trap!
         holdPose = false; % Hold That Pose
+        % Ixtal:
+        dearWatson = false; % Elemental, My Dear Watson
     end
 end

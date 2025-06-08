@@ -7,5 +7,7 @@ classdef Senna < Support & Marksman
         weProtec = false; % We Protec
         wheredTheyGo = false; % Where'd They Go?
         wereGoodOverHere = false; % We're Good Over Here
+        % Shadow Isles:
+        spookyScarySkeletons = false; % Spooky Scary Skeletons
     end
 end

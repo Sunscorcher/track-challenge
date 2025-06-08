@@ -5,5 +5,7 @@ classdef KaiSa < Marksman & Mage
         nowhereToHide = false; % Nowhere To Hide
         wheredTheyGo = false; % Where'd They Go?
         wereGoodOverHere = false; % We're Good Over Here
+        % The Void:
+        inhumanScreechingSounds = false; % (Inhuman Screeching Sounds)
     end
 end

@@ -6,5 +6,7 @@ classdef Briar < Fighter & Assassin
         ultimateInName = false; % It Has Ultimate In The Name
         weProtec = false; % We Protec
         holdPose = false; % Hold That Pose
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end

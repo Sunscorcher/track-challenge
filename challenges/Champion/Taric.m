@@ -4,5 +4,7 @@ classdef Taric < Support & Tank
         lane = "support";
         weProtec = false; % We Protec
         justDontDie = false; % They Just Don't Die
+        % Targon:
+        peakPerformance = false; % Peak Performance
     end
 end

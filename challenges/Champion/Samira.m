@@ -3,5 +3,7 @@ classdef Samira < Marksman & Assassin
         role = ["marksman", "assassin"];
         lane = "bot";
         ultimateInName = false; % It Has Ultimate In The Name
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end

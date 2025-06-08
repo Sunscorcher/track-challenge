@@ -5,5 +5,7 @@ classdef Sett < Fighter & Tank
         ultimateInName = false; % It Has Ultimate In The Name
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
+        % Ionia:
+        wujuFighting = false; % Everybody was Wuju Fighting
     end
 end

@@ -5,5 +5,7 @@ classdef Nidalee < Assassin & Mage
         weProtec = false; % We Protec
         wereGoodOverHere = false; % We're Good Over Here
         itsATrap = false; % It's a Trap!
+        % Ixtal:
+        dearWatson = false; % Elemental, My Dear Watson
     end
 end

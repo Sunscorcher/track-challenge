@@ -10,5 +10,7 @@ classdef Maokai < Tank & Support
         getOverHere = false; % Get Over Here
         itsATrap = false; % It's a Trap!
         holdPose = false; % Hold That Pose
+        % Shadow Isles:
+        spookyScarySkeletons = false; % Spooky Scary Skeletons
     end
 end

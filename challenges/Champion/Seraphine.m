@@ -6,5 +6,7 @@ classdef Seraphine < Support & Mage
         weProtec = false; % We Protec
         wereGoodOverHere = false; % We're Good Over Here
         holdPose = false; % Hold That Pose
+        % Piltover:
+        calculated = false; % Calculated
     end
 end

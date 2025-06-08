@@ -4,5 +4,7 @@ classdef Riven < Fighter & Assassin
         lane = "top";
         ultimateInName = false; % It Has Ultimate In The Name
         holdPose = false; % Hold That Pose
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end

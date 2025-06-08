@@ -6,5 +6,7 @@ classdef Pantheon < Fighter & Assassin
         ultimateInName = false; % It Has Ultimate In The Name
         justDontDie = false; % They Just Don't Die
         wereGoodOverHere = false; % We're Good Over Here
+        % Targon:
+        peakPerformance = false; % Peak Performance
     end
 end

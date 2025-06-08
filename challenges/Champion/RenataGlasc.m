@@ -6,5 +6,7 @@ classdef RenataGlasc < Support & Mage
         weProtec = false; % We Protec
         justDontDie = false; % They Just Don't Die
         holdPose = false; % Hold That Pose
+        % Zaun:
+        chemtechComrades = false; % Chemtech Comrades
     end
 end

@@ -3,5 +3,7 @@ classdef Malphite < Tank & Mage
         role = ["tank", "mage"];
         lane = "top";
         ultimateInName = false; % It Has Ultimate In The Name
+        % Ixtal:
+        dearWatson = false; % Elemental, My Dear Watson
     end
 end

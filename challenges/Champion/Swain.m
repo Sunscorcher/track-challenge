@@ -5,5 +5,7 @@ classdef Swain < Mage & Support
         nowhereToHide = false; % Nowhere To Hide
         ultimateInName = false; % It Has Ultimate In The Name
         getOverHere = false; % Get Over Here
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end

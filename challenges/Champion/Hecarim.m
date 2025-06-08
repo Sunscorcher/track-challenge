@@ -5,5 +5,7 @@ classdef Hecarim < Fighter & Tank
         ultimateInName = false; % It Has Ultimate In The Name
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
+        % Shadow Isles:
+        spookyScarySkeletons = false; % Spooky Scary Skeletons
     end
 end

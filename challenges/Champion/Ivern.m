@@ -6,5 +6,7 @@ classdef Ivern < Support & Mage
         summonersOnTheRift = false; % Summoners on the Rift
         imHelping = false; % I'm Helping
         holdPose = false; % Hold That Pose
+        % Ionia:
+        wujuFighting = false; % Everybody was Wuju Fighting
     end
 end

@@ -3,5 +3,7 @@ classdef Wukong < Fighter & Tank
         role = ["fighter", "tank"];
         lane = "jungle";
         wheredTheyGo = false; % Where'd They Go?
+        % Ionia:
+        wujuFighting = false; % Everybody was Wuju Fighting
     end
 end

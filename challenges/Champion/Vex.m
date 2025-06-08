@@ -6,5 +6,7 @@ classdef Vex < Mage
         wereGoodOverHere = false; % We're Good Over Here
         % Bandle City:
         fiveUnderFive = false; % 5 under 5'
+        % Shadow Isles:
+        spookyScarySkeletons = false; % Spooky Scary Skeletons
     end
 end

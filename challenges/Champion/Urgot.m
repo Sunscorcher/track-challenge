@@ -4,5 +4,7 @@ classdef Urgot < Fighter & Tank
         lane = "top";
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
+        % Zaun:
+        chemtechComrades = false; % Chemtech Comrades
     end
 end

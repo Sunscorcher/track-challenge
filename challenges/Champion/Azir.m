@@ -7,5 +7,7 @@ classdef Azir < Mage & Marksman
         summonersOnTheRift = false; % Summoners on the Rift
         getOverHere = false; % Get Over Here
         imHelping = false; % I'm Helping
+        % Shurima:
+        theSunDiscNeverSets = false; % The Sun Disc Never Sets
     end
 end

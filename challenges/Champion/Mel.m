@@ -6,5 +6,7 @@ classdef Mel < Mage & Support
         ultimateInName = false; % It Has Ultimate In The Name
         justDontDie = false; % They Just Don't Die
         wereGoodOverHere = false; % We're Good Over Here
+        % Noxus:
+        strengthAboveAll = false; % Strength Above All
     end
 end
