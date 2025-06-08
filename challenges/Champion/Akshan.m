@@ -1,7 +1,7 @@
 classdef Akshan < Marksman & Assassin
     properties
         role = ["marksman", "assassin"];
-        lane = "bot";
+        lane = ["bot", "mid"];
         nowhereToHide = false; % Nowhere To Hide
         justDontDie = false; % They Just Don't Die
         wheredTheyGo = false; % Where'd They Go?

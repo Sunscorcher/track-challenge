@@ -1,7 +1,7 @@
 classdef Lux < Mage & Support
     properties
         role = ["mage", "support"];
-        lane = "mid";
+        lane = ["mid", "support"];
         nowhereToHide = false; % Nowhere To Hide
         weProtec = false; % We Protec
         ultimateInName = false; % It Has Ultimate In The Name

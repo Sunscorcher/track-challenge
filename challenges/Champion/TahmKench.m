@@ -1,7 +1,7 @@
 classdef TahmKench < Tank & Support
     properties
         role = ["tank", "support"];
-        lane = "top";
+        lane = ["top", "support"];
         weProtec = false; % We Protec
         justDontDie = false; % They Just Don't Die
         getOverHere = false; % Get Over Here

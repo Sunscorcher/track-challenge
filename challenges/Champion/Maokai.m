@@ -1,7 +1,7 @@
 classdef Maokai < Tank & Support
     properties
         role = ["tank", "support"];
-        lane = "jungle";
+        lane = ["jungle", "support"];
         nowhereToHide = false; % Nowhere To Hide
         ultimateInName = false; % It Has Ultimate In The Name
         justDontDie = false; % They Just Don't Die

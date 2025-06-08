@@ -1,7 +1,7 @@
 classdef Heimerdinger < Mage & Support
     properties
         role = ["mage", "support"];
-        lane = "mid";
+        lane = ["top", "mid"];
         ultimateInName = false; % It Has Ultimate In The Name
         summonersOnTheRift = false; % Summoners on the Rift
         % Bandle City:

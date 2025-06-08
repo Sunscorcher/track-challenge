@@ -1,7 +1,7 @@
 classdef Neeko < Mage & Support
     properties
         role = ["mage", "support"];
-        lane = "mid";
+        lane = "support";
         ultimateInName = false; % It Has Ultimate In The Name
         wheredTheyGo = false; % Where'd They Go?
         summonersOnTheRift = false; % Summoners on the Rift

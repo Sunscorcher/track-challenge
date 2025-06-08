@@ -1,7 +1,7 @@
 classdef Zed < Assassin
     properties
         role = "assassin";
-        lane = "mid";
+        lane = ["jungle", "mid"];
         justDontDie = false; % They Just Don't Die
         summonersOnTheRift = false; % Summoners on the Rift
         % Ionia:

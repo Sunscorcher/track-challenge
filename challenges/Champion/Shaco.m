@@ -1,7 +1,7 @@
 classdef Shaco < Assassin
     properties
         role = "assassin";
-        lane = "jungle";
+        lane = ["jungle", "support"];
         wheredTheyGo = false; % Where'd They Go?
         summonersOnTheRift = false; % Summoners on the Rift
         itsATrap = false; % It's a Trap!

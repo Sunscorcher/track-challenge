@@ -1,7 +1,7 @@
 classdef Vladimir < Mage & Fighter
     properties
         role = ["mage", "fighter"];
-        lane = "mid";
+        lane = ["top", "mid"];
         ultimateInName = false; % It Has Ultimate In The Name
         justDontDie = false; % They Just Don't Die
         % Noxus:

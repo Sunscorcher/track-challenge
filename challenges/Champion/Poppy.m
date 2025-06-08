@@ -1,7 +1,7 @@
 classdef Poppy < Tank & Fighter
     properties
         role = ["tank", "fighter"];
-        lane = "top";
+        lane = ["top", "jungle", "support"];
         getOverHere = false; % Get Over Here
         holdPose = false; % Hold That Pose
         % Bandle City:

@@ -1,7 +1,7 @@
 classdef Ekko < Assassin & Mage
     properties
         role = ["assassin", "mage"];
-        lane = "mid";
+        lane = ["jungle", "mid"];
         ultimateInName = false; % It Has Ultimate In The Name
         justDontDie = false; % They Just Don't Die
         % Zaun:
