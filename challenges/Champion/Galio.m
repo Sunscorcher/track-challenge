@@ -4,6 +4,9 @@ classdef Galio < Tank & Mage
         lane = "mid";
         nowhereToHide = false; % Nowhere To Hide
         ultimateInName = false; % It Has Ultimate In The Name
+        weProtec = false; % We Protec
         holdPose = false; % Hold That Pose
+        % Demacia:
+        forDemacia = false; % FOR DEMACIA
     end
 end

@@ -3,6 +3,7 @@ classdef Sion < Tank & Fighter
         role = ["tank", "fighter"];
         lane = "top";
         nowhereToHide = false; % Nowhere To Hide
+        justDontDie = false; % They Just Don't Die
         holdPose = false; % Hold That Pose
     end
 end

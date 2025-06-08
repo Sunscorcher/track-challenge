@@ -4,5 +4,6 @@ classdef Fighter < Champion
         masterFighter = false;
         % <> specialist is for rekindling role-specific eternal sets
         fighterSpecialist = false;
+        indomitable = false; % Obtain fighter champions
     end
 end

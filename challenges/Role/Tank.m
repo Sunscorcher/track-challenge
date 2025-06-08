@@ -4,5 +4,6 @@ classdef Tank < Champion
         masterTank = false;
         % <> specialist is for rekindling role-specific eternal sets
         tankSpecialist = false;
+        invulnerable = false; % Obtain tank champions
     end
 end

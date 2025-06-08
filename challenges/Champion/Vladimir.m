@@ -3,5 +3,6 @@ classdef Vladimir < Mage & Fighter
         role = ["mage", "fighter"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        justDontDie = false; % They Just Don't Die
     end
 end

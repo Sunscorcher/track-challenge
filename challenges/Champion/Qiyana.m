@@ -3,6 +3,7 @@ classdef Qiyana < Assassin & Fighter
         role = ["assassin", "fighter"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        wheredTheyGo = false; % Where'd They Go?
         holdPose = false; % Hold That Pose
     end
 end

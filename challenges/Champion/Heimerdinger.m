@@ -3,5 +3,8 @@ classdef Heimerdinger < Mage & Support
         role = ["mage", "support"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        summonersOnTheRift = false; % Summoners on the Rift
+        % Bandle City:
+        fiveUnderFive = false; % 5 under 5'
     end
 end

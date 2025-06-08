@@ -10,6 +10,8 @@ classdef Champion < handle
         masterTheEnemy = false; % mastery 10 on different champions
         wellRoundedTraveler = false; % milestone 15 on an eternal
         rekindleOldFurnace = false; % rekindle an eternal set
+        jackOfAllChamps = false; % win games with different champions
+        spiceOfLife = false; % Obtain champions
     end
 
     methods(Static)
@@ -32,6 +34,7 @@ classdef Champion < handle
             this.masterTheEnemy = false;
             this.wellRoundedTraveler = false;
             this.rekindleOldFurnace = false;
+            this.jackOfAllChamps = false;
         end
     end
 end

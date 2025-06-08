@@ -3,5 +3,6 @@ classdef VelKoz < Mage & Support
         role = ["mage", "support"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        wereGoodOverHere = false; % We're Good Over Here
     end
 end

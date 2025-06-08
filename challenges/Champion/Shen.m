@@ -3,5 +3,6 @@ classdef Shen < Tank
         role = "tank";
         lane = "top";
         nowhereToHide = false; % Nowhere To Hide
+        weProtec = false; % We Protec
     end
 end

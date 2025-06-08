@@ -4,5 +4,6 @@ classdef Support < Champion
         masterSupport = false;
         % <> specialist is for rekindling role-specific eternal sets
         supportSpecialist = false;
+        inspiring = false; % Obtain support champions
     end
 end

@@ -3,5 +3,6 @@ classdef Twitch < Marksman & Assassin
         role = ["marksman", "assassin"];
         lane = "bot";
         ultimateInName = false; % It Has Ultimate In The Name
+        wheredTheyGo = false; % Where'd They Go?
     end
 end

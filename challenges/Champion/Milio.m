@@ -3,5 +3,7 @@ classdef Milio < Support & Mage
         role = ["support", "mage"];
         lane = "support";
         ultimateInName = false; % It Has Ultimate In The Name
+        weProtec = false; % We Protec
+        wereGoodOverHere = false; % We're Good Over Here
     end
 end

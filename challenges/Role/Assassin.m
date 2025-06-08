@@ -4,5 +4,6 @@ classdef Assassin < Champion
         masterAssassin = false;
         % <> specialist is for rekindling role-specific eternal sets
         assassinSpecialist = false;
+        invisible = false; % obtain assassin champions
     end
 end

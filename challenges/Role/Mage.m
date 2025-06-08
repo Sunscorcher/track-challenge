@@ -4,5 +4,6 @@ classdef Mage < Champion
         masterMage = false;
         % <> specialist is for rekindling role-specific eternal sets
         mageSpecialist = false;
+        incandescent = false; % Obtain mage champions
     end
 end

@@ -3,5 +3,8 @@ classdef Sona < Support & Mage
         role = ["support", "mage"];
         lane = "support";
         ultimateInName = false; % It Has Ultimate In The Name
+        weProtec = false; % We Protec
+        % Demacia:
+        forDemacia = false; % FOR DEMACIA
     end
 end

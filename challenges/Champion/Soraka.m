@@ -3,5 +3,6 @@ classdef Soraka < Support & Mage
         role = ["support", "mage"];
         lane = "support";
         nowhereToHide = false; % Nowhere To Hide
+        weProtec = false; % We Protec
     end
 end

@@ -3,6 +3,8 @@ classdef Neeko < Mage & Support
         role = ["mage", "support"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        wheredTheyGo = false; % Where'd They Go?
+        summonersOnTheRift = false; % Summoners on the Rift
         holdPose = false; % Hold That Pose
     end
 end

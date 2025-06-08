@@ -3,5 +3,9 @@ classdef Azir < Mage & Marksman
         role = ["mage", "marksman"];
         lane = "mid";
         ultimateInName = false; % It Has Ultimate In The Name
+        wereGoodOverHere = false; % We're Good Over Here
+        summonersOnTheRift = false; % Summoners on the Rift
+        getOverHere = false; % Get Over Here
+        imHelping = false; % I'm Helping
     end
 end

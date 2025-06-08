@@ -3,6 +3,10 @@ classdef Lux < Mage & Support
         role = ["mage", "support"];
         lane = "mid";
         nowhereToHide = false; % Nowhere To Hide
+        weProtec = false; % We Protec
         ultimateInName = false; % It Has Ultimate In The Name
+        wereGoodOverHere = false; % We're Good Over Here
+        % Demacia:
+        forDemacia = false; % FOR DEMACIA
     end
 end
